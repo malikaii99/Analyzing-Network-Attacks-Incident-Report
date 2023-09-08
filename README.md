@@ -1,8 +1,7 @@
 # Analyzing-Network-Attacks-Incident-Report
 <h1>Description</h1>
-I examined DNS and ICMP traffic in transit by utilizing data from a network protocol analysis tool. My goal was to determine the specific network protocol involved in evaluating the cybersecurity incident.
-Within the Internet layer of the TCP/IP model, IP takes data packets and structures them into IP datagrams. The content within these datagrams of an IP packet offered security analysts valuable information about potentially suspicious data packets as they traveled through the network.
-I became proficient in recognizing potentially harmful network traffic, which is crucial for cybersecurity analyst. It enables me to evaluate security threats within the network and enhance overall network security
+I delved into a scenario involving a customer of a company who encounters a security issue while trying to access the company's website. My initial task was to pinpoint the likely cause of the service disruption. Following that, I elucidated the details of the attack, including how it transpired and the adverse effects it had on the website.
+I have gained insights into various common network attacks, learning their names, execution methods, and the characteristics they exhibit from a target's perspective. This comprehension of the impact of these attacks on a network will be invaluable in troubleshooting problems within a organization's network and implementing measures to minimize harm and safeguard against future attacks.
 
 <h2>Scenario</h2>
 Review the scenario below. 
@@ -36,7 +35,7 @@ Now that you have captured data packets using a network analyzer tool, it is you
 As an analyst, you can inspect network traffic and network data to determine what is causing network-related issues during cybersecurity incidents. Later in this course, you will demonstrate how to manage and resolve incidents. For now, you only need to analyze the situation. 
 
 - <a> Required Documents from Botium Toys </a>
-  - [How to read a Wireshark TCP_HTTP log](https://github.com/malikaii99/Security-Audit-Botium-Toys/blob/e0549c8f436c765d70ff8ecd57e45f92ade54da8/IT%20Email%20SS.png)
+  - [How to read a Wireshark TCP_HTTP log](https://github.com/malikaii99/Analyzing-Network-Attacks-Incident-Report/blob/303098a8fa4b32fd23f0aab146776969cf31dbf9/How%20to%20read%20a%20Wireshark%20TCP_HTTP%20log.docx)
 
 <h3>Part 1: Provide a summary of the problem found in the DNS and ICMP traffic log</h3>
 The UDP protocol reveals that the DNS was unreachable; could not retrieve the IP address. This is based on the results of the network analysis, which show that the ICMP echo reply returned the error message: udp port 53 is unreachable. The port noted in the error message is used for DNS service. The most likely issue is that DNS was unable to pick up the service, which led to the error message.
