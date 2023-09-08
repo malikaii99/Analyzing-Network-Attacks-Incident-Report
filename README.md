@@ -36,8 +36,7 @@ Now that you have captured data packets using a network analyzer tool, it is you
 As an analyst, you can inspect network traffic and network data to determine what is causing network-related issues during cybersecurity incidents. Later in this course, you will demonstrate how to manage and resolve incidents. For now, you only need to analyze the situation. 
 
 - <a> Required Documents from Botium Toys </a>
-  - [IT manager's Email screenshot](https://github.com/malikaii99/Security-Audit-Botium-Toys/blob/e0549c8f436c765d70ff8ecd57e45f92ade54da8/IT%20Email%20SS.png)
-  - [Botium Toys: Audit scope and goals](https://github.com/malikaii99/Security-Audit-Botium-Toys/blob/5ff028223bad5198d672077353c9048aa9c70dd9/Botium%20Toys_%20Audit%20scope%20and%20goals.docx)
+  - [How to read a Wireshark TCP_HTTP log](https://github.com/malikaii99/Security-Audit-Botium-Toys/blob/e0549c8f436c765d70ff8ecd57e45f92ade54da8/IT%20Email%20SS.png)
 
 <h3>Part 1: Provide a summary of the problem found in the DNS and ICMP traffic log</h3>
 The UDP protocol reveals that the DNS was unreachable; could not retrieve the IP address. This is based on the results of the network analysis, which show that the ICMP echo reply returned the error message: udp port 53 is unreachable. The port noted in the error message is used for DNS service. The most likely issue is that DNS was unable to pick up the service, which led to the error message.
