@@ -16,7 +16,7 @@ You take the server offline temporarily so that the machine can recover and retu
 
 You need to alert your manager about this problem quickly and discuss the next steps to stop this attacker and prevent this problem from happening again. You will need to be prepared to tell your boss about the type of attack you discovered and how it affected the web server and employees.
 
-- <a> Required Documents from Botium Toys </a>
+- <a> Required Documents </a>
   - [How to read a Wireshark TCP_HTTP log](https://github.com/malikaii99/Analyzing-Network-Attacks-IncidentReport/blob/303098a8fa4b32fd23f0aab146776969cf31dbf9/How%20to%20read%20a%20Wireshark%20TCP_HTTP%20log.docx)
 
 <h3>Security Incident Report</h3>
