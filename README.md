@@ -19,7 +19,7 @@ You need to alert your manager about this problem quickly and discuss the next s
 - <a> Required Documents from Botium Toys </a>
   - [How to read a Wireshark TCP_HTTP log](https://github.com/malikaii99/Analyzing-Network-Attacks-IncidentReport/blob/303098a8fa4b32fd23f0aab146776969cf31dbf9/How%20to%20read%20a%20Wireshark%20TCP_HTTP%20log.docx)
 
-<h3>Section 1: Identify the type of attack that may have caused this network interruption</h3>
+<h3>Security Incident Report</h3>
 The log from the packet sniffer shows that a large number of TCP SYN requests were coming from an unfamiliar IP address. The web server was overwhelmed by the traffic requests and unable to conduct normal business. Based on the log summary, this could be caused by a SYN flood attack (DoS).
 <h3>Section 2: Explain how the attack is causing the website to malfunction</h3>
 When the website visitors try to establish a connection with the web server, a three-way handshake occurs using the TCP protocol. The handshake consists of three steps: 
