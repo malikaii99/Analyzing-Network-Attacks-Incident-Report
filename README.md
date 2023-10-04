@@ -1,7 +1,7 @@
 # Analyzing-Network-Attacks-Incident-Report
 <h1>Description</h1>
 
-I delved into a scenario involving a customer of a company who encounters a security issue while trying to access the company's website. My initial task was to pinpoint the likely cause of the service disruption. Following that, I elucidated the details of the attack, including how it transpired and the adverse effects it had on the website.
+I will delve into a scenario involving a customer of a company who encounters a security issue while trying to access the company's website. My initial task is to pinpoint the likely cause of the service disruption. Following that, I will elucidate the details of the attack, including how it transpired and the adverse effects it had on the website.
 
 I have gained insights into various common network attacks, learning their names, execution methods, and the characteristics they exhibit from a target's perspective. This comprehension of the impact of these attacks on a network will be invaluable in troubleshooting problems within a organization's network and implementing measures to minimize harm and safeguard against future attacks.
 
